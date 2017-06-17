@@ -12,5 +12,8 @@
  <preference name="Fullscreen" value="true" />
   <icon src="icon.png" width="180" height="180" />
 </platform>
-    <plugin name="com.brodysoft.sqliteplugin" spec="1.0.6" source="pgb" />
+    <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-sqlite-storage"
+    version="2.0.4">
 </widget>
